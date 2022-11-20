@@ -19,7 +19,7 @@ To prepare this dataset for import into a Neo4j database, additional cleaning / 
 
 -split "directed by" data out of MAIN, into separate csv for import
 
-My goal here was learning Neo4j, and not in analyzing the dataset, not all tables were prepped for Neo4j import. The following tables were culled from the dataset as Černoch stored it:
+My goal here was learning Neo4j, and not in analyzing the dataset, so not all tables were prepped for Neo4j import. The following tables were culled from the dataset as Černoch stored it:
 
 awtypes
 
