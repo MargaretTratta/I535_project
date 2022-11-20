@@ -22,19 +22,31 @@ To prepare this dataset for import into a Neo4j database, additional cleaning / 
 My goal here was learning Neo4j, and not in analyzing the dataset, not all tables were prepped for Neo4j import. The following tables were culled from the dataset as Černoch stored it:
 
 awtypes
+
 keys
+
 locales
+
 quotes
+
 remakes
+
 sayings
+
 studios
+
 synonyms
 
 Remaining/prepped tables (as csv files):
+
 actors_clean
+
 casts_clean
+
 directed_by_clean
+
 main_clean
+
 people_clean
 
 
