@@ -8,20 +8,33 @@ Original (Wiederhold): https://archive.ics.uci.edu/ml/datasets/Movie
 Reformatted (Černoch): https://github.com/cernoch/movies
 
 To prepare this dataset for import into a Neo4j database, additional cleaning / preparation was needed:
+
 -remove remaining historical html formatting artifacts and standardize csv formatting for consistent column import (not all errors were caught, some fields still import into the incorrect column)
+
 -de-duplicated movie ID and director ID records
+
 -Typos in the director field of MAIN made this field unsuitable for matching, extracted director ID from movie ID for matching.
+
 -removed some text field qualifiers (e.g."D:" in director, "@" preceding years (temporal) data)
+
 -split "directed by" data out of MAIN, into separate csv for import
 
 My goal here was learning Neo4j, and not in analyzing the dataset, not all tables were prepped for Neo4j import. The following tables were culled from the dataset as Černoch stored it:
+
 awtypes
+
 keys
+
 locales
+
 quotes
+
 remakes
+
 sayings
+
 studios
+
 synonyms
 
 Remaining/prepped tables (as csv files):
