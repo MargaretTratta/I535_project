@@ -2,7 +2,9 @@
 November, 2022
 
 This work builds on the cleaning work done by Radomír Černoch to the dataset originally compiled by Gio Wiederhold. Their work is currently (November, 2022) still available:
+
 Original (Wiederhold): https://archive.ics.uci.edu/ml/datasets/Movie
+
 Reformatted (Černoch): https://github.com/cernoch/movies
 To prepare this dataset for import into a Neo4j database, additional cleaning / preparation was needed:
 -remove remaining historical html formatting artifacts and standardize csv formatting for consistent column import (not all errors were caught, some fields still import into the incorrect column)
